@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import util from './Utils'
 
-const MembersLink = "http://localhost:3000/members/"
-const SubscriptionsLink = "http://localhost:3000/subscriptions/"
+const MembersLink = "http://localhost:80/members/"
+const SubscriptionsLink = "http://localhost:80/subscriptions/"
 
 const SubscriptionsComp = (props) => {
     const [visibility, setVisibility] = useState({ allSubs: "block", edit: "none" })
