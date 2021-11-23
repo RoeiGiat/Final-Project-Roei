@@ -7,10 +7,10 @@ import MoviesComp from './MoviesComp';
 import SubscriptionsComp from './SubscriptionsComp';
 
 //Links for server
-const UsersLink = "http://localhost:3000/users/"
-const MoviesLink = "http://localhost:3000/movies/"
-const MembersLink = "http://localhost:3000/members/"
-const SubscriptionsLink = "http://localhost:3000/subscriptions/"
+const UsersLink = "http://localhost:80/users/"
+const MoviesLink = "http://localhost:80/movies/"
+const MembersLink = "http://localhost:80/members/"
+const SubscriptionsLink = "http://localhost:80/subscriptions/"
 
 const Main = (props) => {
     const [users, setUsers] = useState(["", "", ""]) //All users Data  
