@@ -18,6 +18,6 @@ app.use('/movies', moviesController)
 app.use('/members', membersController)
 
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("The server is UP");
 })
